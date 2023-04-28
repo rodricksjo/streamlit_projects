@@ -46,7 +46,8 @@ def main():
 
     # Get user input
     message = st.text_input("Enter a message:")
-
+    
+    print("Test")
     # Predict spam
     if message:
         message = [message]
